@@ -1,0 +1,94 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/*Util*/
+.plum-text {
+    color: plum;
+}
+
+.darkOrange-text{
+    color: darkorange;
+}
+
+.corn-bg {
+    background-color: cornflowerblue;
+}
+
+/* Image controll util */
+.midSize {
+    height: 400px;
+}
+
+.projectImg {
+    width: 100%;
+}
+
+.marginBot {
+    margin-bottom: 20px;
+}
+.center-text{
+    text-align: center;
+}
+
+.biggestFont{
+    font-size: 32pt;
+}
+.biggerFont{
+    font-size: 20pt;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+/* classes*/
+.navBar {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.aboutMe {
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 0 auto;
+}
+
+.leftColmn {
+    height: 400px;
+    width: 400px;
+}
+
+/*Project Page*/
+
+.projectContainer {
+    margin: auto;
+    width: 50%;
+}
+
+.singleProjectContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    padding: 10px;
+}
+.btn{
+    margin-right: auto ;
+}

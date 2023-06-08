@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "NKtUVkjWUIZpV0F9R3a4JHuImqoU6ehCYvOHyki9LPw=",
+  "Source": "CountDown",
+  "BasePath": "_content/CountDown",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CountDown\\wwwroot",
+      "Source": "CountDown",
+      "ContentRoot": "c:\\Users\\TNguy\\OneDrive\\Documents\\CodingDojoWebFun\\CSharp\\ASPDotNetCore\\CountDown\\wwwroot\\",
+      "BasePath": "_content/CountDown",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "c:\\Users\\TNguy\\OneDrive\\Documents\\CodingDojoWebFun\\CSharp\\ASPDotNetCore\\CountDown\\wwwroot\\css\\style.css",
+      "SourceId": "CountDown",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\TNguy\\OneDrive\\Documents\\CodingDojoWebFun\\CSharp\\ASPDotNetCore\\CountDown\\wwwroot\\",
+      "BasePath": "_content/CountDown",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css" />
+    <title>🐢 CountDown</title>
+</head>
+
+<body>
+    <h1 class="darkOrange-text center-text marginBot">Halloweenie CountDown</h1>
+    <div class="singleProjectContainer marginBot">
+        @{
+
+            <div>
+                <h2 class="darkOrange-text biggestFont">Current time: </h2>
+                <p class="biggerFont">@ViewBag.CurrentTime</p>
+            </div>
+
+            <div>
+                <h2 class="darkOrange-text biggestFont">Spookey time: </h2>
+                <p class="biggerFont">@ViewBag.SpookeyTime</p>
+            </div>
+        }
+    </div>
+    <div class="center-text ">
+        <p class="darkOrange-text biggestFont">Count Down: </p>
+        <p class="darkOrange-text biggerFont">@ViewBag.CountDownDays Days</p>
+        <p class="darkOrange-text biggerFont">@ViewBag.CountDownHours Hours</p>
+        <p class="darkOrange-text biggerFont">@ViewBag.CountDownMins Mins</p>
+    </div>
+</body>
+
+</html>
